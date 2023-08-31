@@ -1,0 +1,41 @@
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+    width: fit-content;
+    padding: 56px 64px;
+    height: fit-content;
+    /* This value is approximately (width / sqrt(3)) */
+    background-color: #9ec5b7;
+    /* Change to your desired background color */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+}
+
+.main-form {
+    gap: 16px;
+}
+
+.register-button {
+    background-color: #0f6c84;
+    padding: 8px 32px;
+}
+
+.form-input {
+    border-radius: 15px;
+    /* Adjust the value to control the amount of curvature */
+    padding: 10px 20px;
+    background-color: rgb(240, 239, 239);
+    color: #25aa87;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-teaser {
+color: #ffffff;
+font-size: 20px;
+cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.landing-page {
+    background-image: linear-gradient(45deg, #62b3d1, #25aa87);
+    height: 100vh;
+    position: relative;
+}
+
+.custom-shape-divider-top-1693396164 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1693396164 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 486px;
+    transform: rotateY(180deg);
+}
+
