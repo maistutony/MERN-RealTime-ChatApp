@@ -1,1 +1,7 @@
 
+[build]
+functions = "functions"  # Folder for serverless functions
+publish = "dist"  # Path to your build folder (adjust based on your setup)
+
+[functions]
+node_bundler = "esbuild"  # Optional, improves build speed for Node functions
